@@ -10,6 +10,11 @@ module.exports = {
         corejs: 3,
       },
     ],
+    '@babel/preset-typescript',
   ],
-  plugins: ['@babel/plugin-syntax-bigint'],
-};
+  plugins: [
+    '@babel/proposal-class-properties',
+    '@babel/proposal-object-rest-spread',
+    '@babel/plugin-syntax-bigint',
+  ],
+}
