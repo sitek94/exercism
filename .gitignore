@@ -1,1 +1,17 @@
 node_modules/
+
+javascript/**/.eslintignore
+javascript/**/.eslintrc
+javascript/**/babel.config.js
+javascript/**/jest.config.js
+javascript/**/package.json
+javascript/**/tsconfig.json
+javascript/**/yarn.lock
+
+typescript/**/.eslintignore
+typescript/**/.eslintrc
+typescript/**/babel.config.js
+typescript/**/jest.config.js
+typescript/**/package.json
+typescript/**/tsconfig.json
+typescript/**/yarn.lock
