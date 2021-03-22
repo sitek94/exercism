@@ -13,10 +13,16 @@ const { execSync } = require("child_process");
 
 const arg = process.argv;
 
+// Shorthands for available tracks
+const tracks = {
+  js: "javascript",
+  ts: "typescript",
+};
+
 // Exercise name - first argument
 const exercise = arg[2];
 // Track of the exercise - second argument
-const track = arg[3];
+const track = tracks[arg[3]];
 
 // Download thee exercise using `exercism download`
 execSync(`exercism download --exercise=${exercise} --track=${track}`);
