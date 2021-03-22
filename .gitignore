@@ -2,6 +2,7 @@ node_modules/
 
 javascript/**/.eslintignore
 javascript/**/.eslintrc
+javascript/**/.npmrc
 javascript/**/babel.config.js
 javascript/**/jest.config.js
 javascript/**/package.json
@@ -10,6 +11,7 @@ javascript/**/yarn.lock
 
 typescript/**/.eslintignore
 typescript/**/.eslintrc
+typescript/**/.npmrc
 typescript/**/babel.config.js
 typescript/**/jest.config.js
 typescript/**/package.json
